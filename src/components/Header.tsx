@@ -5,7 +5,7 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="w-full h-[60px] flex max-w-4xl justify-between items-center relative px-1 py-0 bg-black text-white">
+    <nav className="w-full h-[60px] flex justify-between items-center relative px-2 md:px-8 py-0 bg-black text-white">
       <a href="/" className="text-xl">
         creativity
       </a>
